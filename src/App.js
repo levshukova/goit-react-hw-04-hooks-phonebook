@@ -56,7 +56,6 @@ export default function App() {
     setContacts(prevState => prevState.filter(contact => contact.id !== id));
   };
 
-  // const { filter } = this.state;
   const filteredContacts = getFilteredContacts();
   return (
     <div>
